@@ -34,7 +34,7 @@ def map_to_square(source_array)
 end
 
 def reduce_to_total(source_array, starting_point = 0)
-  max = 0
+  max = starting_point
   i = 0
   while i < source_array.length do
     max += source_array[i]
