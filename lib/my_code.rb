@@ -28,6 +28,7 @@ def map_to_square(source_array)
   new_array = []
   while i < source_array.length do
     new_array[i] = source_array[i] ** 2
+    i += 1
   end
   new_array
 end
