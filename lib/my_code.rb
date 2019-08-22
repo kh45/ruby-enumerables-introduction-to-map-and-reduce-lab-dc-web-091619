@@ -49,7 +49,7 @@ def reduce_to_all_true(source_array)
     if not source_array[i]
       return FALSE
     end
-    i += 1 
+    i += 1
   end
   return TRUE
 end
